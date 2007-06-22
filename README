@@ -1,0 +1,71 @@
+python-galago-gtk
+------------------------------------------
+Python bindings for the Galago GTK+ widgets library
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  glib2-2.12.12-2
+  gtk2-x11-2.10.12-1
+  libgalago-0.5.2-1
+  libgalago-gtk-0.5.0-1
+  python-2.5.1-3
+  python-galago-0.5.0-1
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.4-2
+
+Build requirements:
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+
+Canonical website:
+  http://www.galago-project.org/
+
+Canonical download:
+  http://www.galago-project.org/files/releases/source/galago-python/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-galago-gtk-0.5.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-galago-gtk-0.5.0-X.cygport all
+
+This will create:
+  /usr/src/python-galago-gtk-0.5.0-X-src.tar.bz2
+  /usr/src/python-galago-gtk-0.5.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/pkgconfig/galago-gtk-python.pc
+  /usr/lib/python2.5/site-packages/gtk-2.0/galago/gdk.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/galago/gdk.la
+  /usr/lib/python2.5/site-packages/gtk-2.0/galago/gtk.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/galago/gtk.la
+  /usr/share/doc/Cygwin/python-galago-gtk-0.5.0.README
+  /usr/share/doc/python-galago-gtk-0.5.0/AUTHORS
+  /usr/share/doc/python-galago-gtk-0.5.0/COPYING
+  /usr/share/doc/python-galago-gtk-0.5.0/ChangeLog
+  /usr/share/doc/python-galago-gtk-0.5.0/NEWS
+  /usr/share/pygtk/2.0/defs/galago-gdk.defs
+  /usr/share/pygtk/2.0/defs/galago-gtk.defs
+
+------------------
+
+Port Notes:
+
+----- version 0.5.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

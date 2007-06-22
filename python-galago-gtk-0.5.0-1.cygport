@@ -1,0 +1,6 @@
+ORIG_PN="galago-gtk-python"
+inherit pygtk
+
+DESCRIPTION="Desktop presence framework Python bindings"
+HOMEPAGE="http://www.galago-project.org/"
+SRC_URI="http://www.galago-project.org/files/releases/source/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
