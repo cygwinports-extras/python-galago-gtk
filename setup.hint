@@ -1,4 +1,4 @@
 category: Python Gnome
-requires: cygwin glib2 gtk2-x11 libgalago libgalago-gtk python python-galago python-gobject2 python-gtk2
+requires: glib2 gtk2-x11 libgalago libgalago-gtk python python-galago python-gobject2 python-gtk2
 sdesc: "Python bindings for the Galago GTK+ widgets library"
 ldesc: "Python bindings for the Galago GTK+ widgets library"
